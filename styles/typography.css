@@ -1,0 +1,34 @@
+h1 {
+    font-size: 2.5em;
+    font-weight: bold; /* Additional property */
+    color: #007BFF; /* Change color for contrast */
+    text-transform: uppercase; /* Additional property */
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold; /* Additional property */
+    color: #4CAF50; /* Change color for contrast */
+    text-transform: capitalize; /* Additional property */
+}
+
+h3 {
+    font-size: 1.75em;
+    font-weight: semi-bold; /* Additional property */
+    color: #FF5733; /* Different color for variation */
+    text-decoration: underline; /* Additional property */
+}
+
+h4 {
+    font-size: 1.5em;
+    font-weight: normal; /* Additional property */
+    color: #333; /* Darker color for contrast */
+    font-style: italic; /* Additional property */
+}
+
+p {
+    line-height: 1.6;
+    font-size: 1em; /* Additional property */
+    color: #555; /* Text color */
+    text-align: justify; /* Additional property */
+}

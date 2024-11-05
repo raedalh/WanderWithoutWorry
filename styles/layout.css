@@ -1,0 +1,27 @@
+/* Main Layout Styles */
+main {
+    display: block; /* Block for main layout */
+}
+
+/* Small Screens */
+.post-content, .post-image {
+    display: block; /* Block for post content and image */
+}
+
+/* Medium Screens (between 600px and 900px) */
+@media (min-width: 600px) and (max-width: 900px) {
+    main {
+        display: grid; /* Grid layout for medium screens */
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+/* Large Screens (900px and above) */
+@media (min-width: 901px) {
+    main {
+        display: grid; /* Grid layout for larger screens */
+        grid-template-columns: 2fr 1fr; /* Two columns for content and image */
+        gap: 20px;
+    }
+}

@@ -1,0 +1,99 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../assets/background.jpg');
+    background-size: cover;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.box {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Reduced header and footer height */
+.header-title {
+    font-size: 2.5em;
+    text-align: center;
+    line-height: 1.2; /* Adjust line-height for reduced height */
+}
+
+.header-subtitle {
+    font-size: 1.5em;
+    text-align: center;
+    color: #3CB371; /* Grass-like green color */
+}
+
+.nav-link {
+    margin: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.blog-card {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.blog-card img {
+    width: 200px; /* Adjust as necessary */
+    height: auto;
+    border-radius: 5px;
+}
+
+.mountain-img {
+    width: 100%; /* Full width for mountain image */
+    height: auto;
+    max-height: 300px; /* Limit the height */
+}
+
+.blog-card-text {
+    padding: 10px;
+}
+
+.blog-title {
+    font-size: 1.8em;
+}
+
+.blog-date {
+    font-size: 0.9em;
+    color: #888;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #3CB371; /* Grass-like green color for buttons */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #66D7D1;
+}
+
+footer.box {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text within each item */
+    padding: 20px 0; /* Optional: Add some padding */
+}
