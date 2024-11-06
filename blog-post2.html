@@ -3,37 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/typography.css">
-    <link rel="stylesheet" href="styles/colors.css">
     <title>Exploring the Mountain Range</title>
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <div class="container">
-        <header class="box">
-            <h1 class="header-title">Exploring the Mountain Range</h1>
-            <h4 class="blog-date">November 1, 2024</h4>
-        </header>
-        <main class="box">
-            <img src="assets/mountain-range-blog-post2.jpg" alt="Mountain Range" class="blog-post-img" style="max-width: 100%; height: auto;">
-            <p>Nestled between vast valleys and shimmering lakes, mountain ranges offer breathtaking views and countless adventures for outdoor enthusiasts. From hiking and rock climbing to camping and photography, these majestic landscapes provide a perfect backdrop for those looking to reconnect with nature. In this post, we’ll delve into the wonders of exploring mountain ranges, highlighting key experiences, essential tips, and the undeniable beauty of these natural wonders.</p>
-            <a href="index.html" class="button">Home</a>
-        </main>
+    <header>
+        <h1>Exploring the Mountain Range</h1>
+    </header>
 
-        <!-- Related Articles Section -->
-        <section class="related-articles box">
+    <main class="blog-content">
+        <section class="post-container">
+            <figure class="blog-image-figure">
+                <img src="assets/mountain-range-blog-post2.jpg" alt="Mountain Range" class="blog-image">
+                <figcaption>Discover breathtaking views and experiences in the mountains.</figcaption>
+            </figure>
+            <article class="post-content">
+                <h2>Mountain Adventures</h2>
+                <p>Exploring the mountain range offers awe-inspiring views and a chance to reconnect with nature.</p>
+                <blockquote>“The mountains are calling, and I must go.”</blockquote>
+                <p>Plan your trip carefully, taking the right equipment and being prepared for any challenges ahead.</p>
+            </article>
+        </section>
+
+        <!-- Author Info Section -->
+        <section class="author-info">
+            <h3>About the Author</h3>
+            <div class="author-details">
+                <img src="assets/placeholder.jpg" alt="Raed Hamami" class="author-avatar">
+                <div class="author-bio">
+                    <p><strong>Name:</strong> Raed Hamami</p>
+                    <p><strong>Title:</strong> Student</p>
+                    <p><strong>School:</strong> Udacity</p>
+                    <p><strong>Bio:</strong> I am passionate about nature, camping, and outdoor adventures. I share my experiences and tips to help others explore the world affordably.</p>
+                </div>
+            </div>
+            <!-- Social Sharing Links -->
+            <div class="social-links">
+                <h4>Follow Me:</h4>
+                <ul>
+                    <li><a href="https://www.linkedin.com/feed/" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://www.facebook.com/raed.hammami.5" target="_blank">Facebook</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="related-articles">
             <h3>Related Articles</h3>
             <ul>
                 <li><a href="blog-post.html">DIY Fire: A Step-by-Step Guide</a></li>
-                <li><a href="index.html">Tips for Camping Safely</a></li>
-                <li><a href="index.html">Essential Gear for Outdoor Adventures</a></li>
             </ul>
-        </section>
+        </div>
+    </main>
 
-        <footer class="box" style="text-align: center;">
-            <p style="font-size: 1.2em;">All rights reserved</p>
-        </footer>
-    </div>
+    <footer>
+        <a href="index.html" class="button">Home</a>
+    </footer>
 </body>
 </html>

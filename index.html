@@ -3,52 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/typography.css">
-    <link rel="stylesheet" href="styles/colors.css">
     <title>Wander Without Worry</title>
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
     <div class="container">
-        <header class="box">
+        <header class="header">
             <h1 class="header-title">Wander Without Worry</h1>
             <h2 class="header-subtitle">Adventure on a Budget</h2>
+            <nav>
+                <a href="about.html">About</a>
+            </nav>
         </header>
-        <nav class="box" style="text-align: center;">
-            <a href="about.html" class="button nav-link">About</a>
-            <a href="blog-post.html" class="button nav-link">Latest Post</a>
-        </nav>
-        <main class="box">
-            <div class="blog-card" id="post-1">
-                <img src="assets/DIY-FIRE-post1.jpg" alt="DIY Fire" class="blog-img">
+
+        <main class="main-content">
+            <section class="blog-card">
+                <figure class="blog-image-figure">
+                    <img src="assets/DIY-FIRE-post1.jpg" alt="DIY Fire" class="blog-image">
+                    <figcaption>Step-by-step guide to building your own fire</figcaption>
+                </figure>
                 <div class="blog-card-text">
-                    <h2 class="blog-title">DIY Fire: A Step-by-Step Guide</h2>
-                    <h4 class="blog-date">November 4, 2024</h4>
-                    <p>Building a fire is an essential skill for anyone who loves the outdoors. Whether you’re camping, having a backyard ..</p>
-                    <a href="blog-post.html" class="button">Read more &rarr;</a>
-                </div>                 
-            </div>
-            <div class="blog-card" id="post-2">
-                <img src="assets/mountain-range-blog-post2.jpg" alt="Mountain Range" class="blog-img mountain-img">
-                <div class="blog-card-text">
-                    <h2 class="blog-title">Exploring the Mountain Range</h2>
-                    <h4 class="blog-date">November 1, 2024</h4>
-                    <p>Nestled between vast valleys and shimmering lakes, mountain ranges offer breathtaking views and countless adventures for outdoor enthusiasts..</p>
-                    <a href="blog-post2.html" class="button">Read more &rarr;</a>
+                    <h3>DIY Fire: A Step-by-Step Guide</h3>
+                    <p>Learn how to safely build your own fire with this simple guide.</p>
+                    <a href="blog-post.html" class="button">Read More</a>
                 </div>
-            </div>
+            </section>
+            <section class="blog-card">
+                <figure class="blog-image-figure">
+                    <img src="assets/mountain-range-blog-post2.jpg" alt="Mountain Range" class="blog-image">
+                    <figcaption>Explore breathtaking mountain views and trails</figcaption>
+                </figure>
+                <div class="blog-card-text">
+                    <h3>Exploring the Mountain Range</h3>
+                    <p>Discover breathtaking views and experiences in the mountains.</p>
+                    <a href="blog-post2.html" class="button">Read More</a>
+                </div>
+            </section>
         </main>
-        <footer class="box footer-text-center">
-            <p>All rights reserved</p>
-            <div class="subscribe-section">
-                <h3>Subscribe to Our Newsletter</h3>
-                <form class="subscribe-form" style="display: inline-block;">
-                    <input type="text" placeholder="Name" class="subscribe-input" required>
-                    <input type="email" placeholder="Email" class="subscribe-input" required>
-                    <button type="submit" class="button subscribe-button">Subscribe</button>
-                </form>
-            </div>
+
+        <aside class="quote-section">
+            <blockquote>“Adventure is out there! Don't let anything hold you back from exploring the beauty of nature.”</blockquote>
+        </aside>
+
+        <footer class="footer">
+            <p>&copy; 2024 Wander Without Worry</p>
         </footer>
     </div>
 </body>

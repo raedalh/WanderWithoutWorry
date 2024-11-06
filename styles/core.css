@@ -1,0 +1,64 @@
+/* core.css */
+
+/* Base typography settings */
+body {
+    font-family: 'Lato', sans-serif;
+    color: #333; /* Primary text color */
+    background-color: #F0F0F0;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Headers with unique properties */
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #007BFF; /* Blue color for H1 */
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #4CAF50; /* Grass-like green color for H2 */
+    text-transform: capitalize;
+}
+
+h3 {
+    font-size: 1.75em;
+    color: #FF5733; /* Orange color for H3 */
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+/* Paragraph text styling */
+p {
+    font-size: 1em;
+    color: #555;
+    text-align: justify;
+}
+
+p.bold { font-weight: bold; }
+p.italic { font-style: italic; }
+p.underline { text-decoration: underline; }
+
+/* Links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Blockquote styling */
+blockquote {
+    font-style: italic;
+    border-left: 4px solid #4CAF50;
+    margin: 20px 0;
+    padding: 10px 20px;
+    color: #555;
+    background: rgba(76, 175, 80, 0.1); /* Light green background for emphasis */
+}

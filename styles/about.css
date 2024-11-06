@@ -1,0 +1,15 @@
+/* About Page Specific Styles */
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer .button {
+    background-color: #007BFF;
+}

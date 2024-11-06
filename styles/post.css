@@ -1,0 +1,30 @@
+/* Styling for images within blog posts */
+.blog-image-figure {
+    margin: 0;
+    padding: 0;
+    display: block; /* Makes figure take up full width */
+    max-width: 100%; /* Ensures figure is responsive */
+    text-align: center; /* Ensures figcaption aligns with the image */
+}
+
+.blog-image {
+    width: 100%; /* Makes image responsive */
+    height: auto;  /* Maintains aspect ratio */
+    max-height: 300px;  /* Limits height for larger images */
+    border-radius: 8px;
+    display: block; /* Ensures proper alignment */
+}
+
+/* Styling for the image caption (figcaption) */
+figcaption {
+    font-style: italic;
+    margin-top: 5px; /* Adds space between the image and caption */
+    color: #555; /* Style caption text */
+}
+
+/* Ensuring the post container is fully responsive */
+.post-container {
+    width: 100%;
+    max-width: 100%;  /* Ensure full width of container */
+    box-sizing: border-box;  /* Prevents overflow from padding */
+}

@@ -1,0 +1,51 @@
+/* Styles for the author info section */
+.author-info {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.author-info h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.author-info p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Styles for the avatar image */
+.author-avatar {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+/* Social media button styles */
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #0077b5; /* LinkedIn color */
+}
+
+.social-links a.facebook {
+    background-color: #3b5998; /* Facebook color */
+}
+
+.social-links a.twitter {
+    background-color: #1da1f2; /* Twitter color */
+}
+
+/* Add hover effects */
+.social-links a:hover {
+    opacity: 0.8;
+}
