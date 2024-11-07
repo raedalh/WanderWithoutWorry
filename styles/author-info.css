@@ -25,15 +25,15 @@
     height: 80px;
     object-fit: cover;
     margin-right: 15px;
+    transition: transform 0.3s ease;
+}
+
+.author-avatar:hover {
+    transform: scale(1.05);
 }
 
 /* Social media button styles */
-.social-links a {
-    display: inline-block;
-    margin-right: 10px;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 50%;
+.social-links a.linkedin {
     background-color: #0077b5; /* LinkedIn color */
 }
 
@@ -43,6 +43,15 @@
 
 .social-links a.twitter {
     background-color: #1da1f2; /* Twitter color */
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
 }
 
 /* Add hover effects */
